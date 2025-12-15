@@ -1,6 +1,6 @@
 # WordPress Table-of-Contents Shortcode Done Properly
 
-No plugin installation (just copy and paste). Intelligent article processing using the native HTML parser (libxml), not messy programmatic find-and-replace operations.
+A shortcode for automatically adding a table of contents to a post. No plugin installation (just copy and paste the code below). Intelligent article processing using the native HTML parser (libxml), not messy programmatic find-and-replace operations.
 
 This solution uses PHP's native `DOMDocument` (libxml) to parse post content, automatically inject ID anchors into headings, and generate a nested list Table of Contents via a simple shortcode.
 
