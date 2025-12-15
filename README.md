@@ -1,14 +1,12 @@
 # WordPress Table-of-Contents Shortcode Done Properly
 
-A lightweight, copy-and-paste server-side Table of Contents generator for WordPress. 
-
-No plugin installation. Intelligent article contents processing using the native HTML parser (libxml), not messy programmatic find-and-replace operations.
+No plugin installation (just copy and paste). Intelligent article processing using the native HTML parser (libxml), not messy programmatic find-and-replace operations.
 
 This solution uses PHP's native `DOMDocument` (libxml) to parse post content, automatically inject ID anchors into headings, and generate a nested list Table of Contents via a simple shortcode.
 
 ## Features
 
-z **Server-Side Parsing:** Uses PHP `DOMDocument` rather than regex or heavy client-side JavaScript.
+**Server-Side Parsing:** Uses PHP `DOMDocument` rather than regex or heavy client-side JavaScript.
 * **Automatic Anchors:** Automatically injects `id` attributes into your headings (e.g., `<h2 id="my-heading">`).
 * **Duplicate Handling:** Automatically handles duplicate headings by appending counters.
 * **Customizable:** Choose which heading levels to include via shortcode attributes.
