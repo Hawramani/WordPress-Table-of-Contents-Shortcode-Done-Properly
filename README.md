@@ -46,12 +46,11 @@ To include H1 through H4:
 [auto_toc title="In this article"]
 ```
 
-## The Code
+## The Code (For Copy and Paste Into functions.php)
 
 If you prefer to copy the code directly:
 
 ```php
-<?php
 /**
  * Global variable to pass TOC data from the filter to the shortcode.
  */
@@ -186,7 +185,7 @@ function custom_toc_shortcode($atts) {
     return $output;
 }
 add_shortcode('auto_toc', 'custom_toc_shortcode');
-?>
+
 ```
 
 ## Styling (CSS)
