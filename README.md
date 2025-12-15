@@ -18,12 +18,12 @@ z **Server-Side Parsing:** Uses PHP `DOMDocument` rather than regex or heavy cli
 
 ### Option 1: Theme Integration
 1.  Open your theme's `functions.php` file.
-2.  Paste the PHP code found in `toc-script.php` (or see source below).
+2.  Paste the PHP code found below in the section "The Code (For Copy and Paste Into functions.php)".
 
 ### Option 2: Custom Plugin
 1.  Create a folder in `wp-content/plugins/` named `wp-auto-toc`.
 2.  Create a file inside it named `wp-auto-toc.php`.
-3.  Paste the PHP code and add the standard WordPress plugin header comment at the top.
+3.  Paste the PHP code in [wp-auto-toc.php](wp-auto-toc.php) into that file.
 4.  Activate via the WP Admin dashboard.
 
 ## Usage
@@ -188,7 +188,7 @@ add_shortcode('auto_toc', 'custom_toc_shortcode');
 
 ```
 
-## Styling (CSS)
+## Styling (CSS) (Optional)
 
 Add this to your theme's `style.css`:
 
